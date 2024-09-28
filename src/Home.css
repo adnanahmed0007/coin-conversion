@@ -1,0 +1,62 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; /* Light background color */
+  padding: 20px; /* Padding around the container */
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+.home_content {
+  text-align: center; /* Center the text */
+  margin-bottom: 30px; /* Space below the content */
+}
+
+.Heading454 {
+  margin-top: 20px; /* Space above the heading */
+}
+
+button {
+  background-color: #61dafb; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding around the button */
+  font-size: 16px; /* Font size for the button */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color change */
+  margin-bottom: 20px; /* Space below the button */
+}
+
+button:hover {
+  background-color: #21a1f1; /* Darker shade on hover */
+}
+
+.home_info {
+  width: 100%;
+  max-width: 600px; /* Limit width on larger screens */
+  background-color: #fff; /* White background for info box */
+  padding: 20px; /* Padding inside the info box */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+li {
+  padding: 10px; /* Padding inside list items */
+  border-bottom: 1px solid #ddd; /* Light border between items */
+}
+
+li:last-child {
+  border-bottom: none; /* Remove border for the last item */
+}
+
+li.loading {
+  text-align: center; /* Center loading text */
+  color: #888; /* Gray color for loading text */
+}

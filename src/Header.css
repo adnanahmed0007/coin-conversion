@@ -1,0 +1,20 @@
+.Link {
+  display: flex; /* Aligns links in a row */
+  justify-content: space-around; /* Spaces out links evenly */
+  align-items: center; /* Centers items vertically */
+  background-color: #282c34; /* Background color */
+  padding: 10px 20px; /* Padding around the links */
+}
+
+.Link a {
+  color: white; /* Text color for links */
+  text-decoration: none; /* Removes underline from links */
+  font-size: 18px; /* Font size */
+  padding: 10px 15px; /* Padding around each link */
+  transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.Link a:hover {
+  background-color: #61dafb; /* Change background color on hover */
+  border-radius: 5px; /* Rounded corners */
+}
